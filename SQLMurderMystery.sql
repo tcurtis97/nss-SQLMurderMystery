@@ -1,7 +1,4 @@
-﻿select c.date, c.type, c.description, c.city
- from crime_scene_report c
- WHERE c.date = 20180115 AND c.type = 'murder' AND c.city = 'SQL City'
-              
+﻿    
  select c.date, c.type, c.description, c.city
  from crime_scene_report c
  WHERE c.date = 20180115 AND c.type = 'murder' AND c.city = 'SQL City'
